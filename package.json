@@ -12,16 +12,22 @@
     "render-build": "npm install && npm run build"
   },
   "dependencies": {
+    "@apollo/server": "^4.11.2",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^6.2.1",
     "@mui/material": "^6.2.1",
     "apollo-server-express": "^3.13.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "graphql": "^16.10.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-responsive-carousel": "^3.2.23"
+    "react-responsive-carousel": "^3.2.23",
+    "stripe": "^8.222.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
